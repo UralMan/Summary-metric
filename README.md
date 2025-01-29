@@ -60,9 +60,9 @@
 # Методология   
 Для BERT была выбрана метрика **F1**. Это связано с тем, что F1 обеспечивает сбалансированное внимание как к точности, так и к полноте, что важно для оценки саммари.   
 # Эксперимент   
-## BERT with `**bert-base-multilingual-cased**`   
+## BERT with `bert-base-multilingual-cased`   
 ![image.png](files/image.png)    
-## BERT with `**xlm-roberta-large**`   
+## BERT with `xlm-roberta-large`   
 ![image.png](files/image_e.png)    
 ## BLEU   
 ![image.png](files/image_c.png)    
