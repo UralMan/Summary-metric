@@ -61,16 +61,16 @@
 Для BERT была выбрана метрика **F1**. Это связано с тем, что F1 обеспечивает сбалансированное внимание как к точности, так и к полноте, что важно для оценки саммари.   
 # Эксперимент   
 ## BERT with `**bert-base-multilingual-cased**`   
-![image.png](files\image.png)    
+![image.png](files/image.png)    
 ## BERT with `**xlm-roberta-large**`   
-![image.png](files\image_e.png)    
+![image.png](files/image_e.png)    
 ## BLEU   
-![image.png](files\image_c.png)    
+![image.png](files/image_c.png)    
 ## ROUGE
    
-![image.png](files\image_r.png)    
+![image.png](files/image_r.png)    
 ## METEOR   
-![image.png](files\image_m.png)    
+![image.png](files/image_m.png)    
 # Результаты   
 1. Метрика **BERT** с моделью `xlm-roberta-large`  показала наилучшие результаты: хорошее саммари всегда имеет метрику больше, чем плохое (*если сравнивать однотипные саммари для одного текста*).   
 2. Метрика **BLEU** показала хорошие результаты на всех тестах, однако в тексте 11 хорошее среднее и плохое среднее саммари имеют схожий score.   
